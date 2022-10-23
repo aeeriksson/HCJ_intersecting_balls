@@ -1,0 +1,17 @@
+Two substantial changes were made from the previous version (1.0:
+	1) the removal of superflous code, most of which was already commented out, and
+	2) the ability to move the playing field
+
+
+Additional changes that I would like to include (1.1):
+	A) make the playing field adjust its size depending on the browser size
+		I) Leave room at the top for website 'banner'
+			i) banner will disappear when animation is running, but return when pausing
+		II) Leave room for a bottom-panel when the user will interact with the animation/game
+			i) potential buttons for gameplay
+			ii) pause-button, unless animation stope when pressing the animation itself
+			iii) reset-button
+			iv) settings-button
+	B) Seperate the inital field-content-generating and the settings-changes in the menu
+			
+
